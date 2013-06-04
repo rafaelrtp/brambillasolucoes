@@ -45,8 +45,8 @@ p           { margin: 1em 0 1.2em 0; text-align:left; }
 p img       { float: left; margin: 1.5em 1.5em 1.5em 0; padding:0; }
 p strong       { color: #c99d7d; font-weight: normal; font-size: 17px; }
 
-a           { text-decoration: underline; outline: none; color: #666;}
-a:hover     { text-decoration: none; color: #666;} 
+a           { text-decoration: underline; outline: none; color: #fff;}
+a:hover     { text-decoration: none; color: #fff;} 
 
 
 /* Tables
