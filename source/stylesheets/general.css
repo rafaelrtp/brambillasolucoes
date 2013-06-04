@@ -1,0 +1,23 @@
+﻿@charset "utf-8";
+/* -------------------------------------------------------------------------- */
+
+/*
+UPDATE INFORMATIONS
+--------------------------------------------------------------------------
+CSS TYPE: General
+BRAMBILLA SOLUÇÕES NO VAREJO
+
+CHANGELOG:
+Last Update: 08/11/2009
+Last Update by: Rafael Torales (contact@rafaeltorales.com)
+
+CONTACT: 
+RAFAEL TORALES    - http://www.rafaeltorales.com
+-------------------------------------------------------------------------- */
+
+/* Import CSS */
+@import "global/reset.css";
+@import "global/classes.css";
+@import "library/typography.css";
+@import "library/brambilla.css";
+/* End Import CSS */

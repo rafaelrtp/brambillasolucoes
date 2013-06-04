@@ -1,0 +1,60 @@
+﻿@charset "utf-8";
+/*
+---------------------------------------------------------------------------------
+CSS TYPOGRAPHY: BRAMBILLA SOLUÇÕES NO VAREJO - V1.0 - 08/11/2009
+---------------------------------------------------------------------------------
+DEVELOPED BY:
+RAFAEL TORALES    - http://www.rafaeltorales.com
+---------------------------------------------------------------------------------*/
+
+
+/* Layout
+---------------------------------*/
+body,
+#container,
+#content {float:none !important; width:auto !important; margin:0 !important; padding:0 !important;}
+
+/* Typography
+---------------------------------*/
+body {font-family:Helvetica, Arial, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-family:"Palatino Linotype", Georgia, "Times New Roman", serif; line-height:90%;} 
+h1 {font-size: 24pt;} 
+h2 {font-size: 20pt;} 
+h3 {font-size: 18pt;} 
+h4 {font-size: 15pt;}
+h5 {font-size: 12pt;}
+
+p, ul, ol, dd, dt, blockquote, table, tr, td {font-size:10pt; line-height:14pt; font-weight:normal;}
+
+#content img {float:left; padding:2px; border:1px solid black; margin:0 5mm 5mm 0;}
+
+blockquote {float: left; width: 100mm; margin: 5mm 5mm 5mm 0; font-size: 14pt; line-height: 18pt; color: #3a3d7f;}
+dd, dt {font-size: 10pt; margin: 0;}
+dt {font-weight: bold;}
+dd {font-weight: normal;}
+
+/* Links
+---------------------------------*/
+#content a {color:#3a3d7f;}
+#content a:link {color:#3a3d7f;}
+#content a:visited {color:#3a3d7f;}
+#content a:active {color:#3a3d7f;}
+#content a[href]:after {content:" [" attr(href) "] ";}
+
+#content table {width:98%; margin:0 2pt; border:1px solid #000; border-collapse:collapse;}
+#content th, #content tr, #content td {padding:3pt; border:1px solid #000;}
+
+/* Hidden
+---------------------------------*/
+div#nav, 
+div#footer, 
+hr {display: none;}
+
+/* If you're having trouble printing relative links, uncomment and customize this:
+   (note: This is valid CSS3, but it still won't go through the W3C CSS Validator) */ 
+
+/* a[href^="/"]:after {
+  content: " (http://www.yourdomain.com" attr(href) ") ";
+} */
+
+

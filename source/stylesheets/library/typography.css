@@ -1,0 +1,63 @@
+﻿@charset "utf-8";
+/*
+---------------------------------------------------------------------------------
+CSS TYPOGRAPHY: BRAMBILLA SOLUÇÕES NO VAREJO - V1.0 - 08/11/2009
+---------------------------------------------------------------------------------
+DEVELOPED BY:
+RAFAEL TORALES    - http://www.rafaeltorales.com
+---------------------------------------------------------------------------------*/
+
+
+/* Body
+----------------------------------------------------------------- */
+
+body {font-family: "Helvetica Neue", Arial; line-height: 1.4; font-size: 15px; color: #966b4b;}
+
+/* Titles
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 {clear:both; cursor:default;}
+
+h1 { font-size: 40px; line-height: 1.3; font-weight: normal; letter-spacing: -1px;}
+h2 { font-size: 18px; margin-top: 0.6em; margin-bottom: 0.6em; }
+h3 { font-size: 13px; font-weight: bold;}
+h4 { font-size: 12px; font-weight: bold;}
+h5 { font-size: 12px; font-weight: bold;}
+h6 { font-size: 12px; font-weight: bold;}
+
+/* Text Elements
+-------------------------------------------------------------- */
+
+ul, ol      { margin: 1em 0 1em 1.5em; }
+ul li		{ list-style-type:square; }
+ol          { list-style-type: decimal; }
+ol li		{ margin-left: 5px; }
+dl          { margin: 1.5em 0; }
+dl dt       { font-weight: bold; }
+blockquote  { margin: 1.5em 0 1.5em 1.5em; color: #666; font-style: italic; }
+strong      { font-weight: bold; }
+em          { font-style: italic; }
+pre         { margin-bottom: 1.3em; background: #eee; border:0.1em solid #ddd; padding:1.5em; }
+code        { font:0.9em Monaco, monospace; }
+hr 			{ display: none; }
+
+p           { margin: 1em 0 1.2em 0; text-align:left; }
+p img       { float: left; margin: 1.5em 1.5em 1.5em 0; padding:0; }
+p strong       { color: #c99d7d; font-weight: normal; font-size: 17px; }
+
+a           { text-decoration: underline; outline: none; color: #666;}
+a:hover     { text-decoration: none; color: #666;} 
+
+
+/* Tables
+-------------------------------------------------------------- */
+
+table   { margin: 1.2em 0; }
+thead 	{ background-color: #006ab5; }
+th		{ padding: 5px 10px; font-size: 15px; color: #fff; }
+td		{ padding: 15px 10px; border-bottom: 1px solid #d6ecf3; }
+th      { font-weight:bold; }
+
+
+
+

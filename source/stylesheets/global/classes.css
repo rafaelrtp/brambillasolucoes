@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+/* Generic Classes
+-------------------------------------------------------------------------- */
+
+/* Invisible Content Just for Screen Reader Users*/
+.hidden {position:absolute; left:0px; top:-500px; width:1px; height:1px; overflow:hidden;}
+
+/* Clearfix */
+.clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix {display:inline-block;}
+/* Hide from IE Mac \*/
+.clearfix {display:block;}
+/* End hide from IE Mac */
+
+.hidden {left:-9999px; position:absolute;}
+.debug {border:1px solid red;}
+.alignLeft {text-align:left !important;}
+.alignRight {text-align:right !important;}
+.alignCenter {text-align:center !important;}
+.floatLeft {float:left !important;}
+.floatRight {float:right !important;}
+.clearBoth {clear:both; overflow:hidden; height:1px; font-size:1px;}
+.clearLeft {clear:left !important;}
+.clearRight {clear:right !important;}
+.hide {display:none !important;}
+.highlight {background-color:#ffc;}
+.noBackground {background:none !important;}
+.noBorder {border:none !important;}
+.noMargin {margin:0 !important;}
+.noPadding {padding:0 !important;}
+.noBold {font-weight:normal !important;}
+.highlight {background:#ffc;}
+
